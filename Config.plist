@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Actions</key>
+  <array>
+    <dict>
+      <key>Image File</key>
+      <string>dict.png</string>
+      <key>Regular Expression</key>
+      <string>(?s)^.{1,1900}$</string>
+      <key>Title</key>
+      <string>CollinsDict</string>
+      <key>URL</key>
+      <string>http://www.collinsdictionary.com/dictionary/american-cobuild-learners/{popclip text}</string>
+    </dict>
+  </array>
+  <key>Credits</key>
+  <array>
+    <dict>
+      <key>Link</key>
+      <string>https://github.com/djyde/popclip-collins-dict</string>
+      <key>Name</key>
+      <string>Randy Lu</string>
+    </dict>
+  </array>
+  <key>Apps</key>
+  <array>
+    <dict>
+      <key>Link</key>
+      <string>http://www.collinsdictionary.com/dictionary/american-cobuild-learners</string>
+      <key>Name</key>
+      <string>Collins Dictionary</string>
+    </dict>
+  </array>
+  <key>Extension Description</key>
+  <string>Search verb in Collins dictionary</string>
+  <key>Extension Identifier</key>
+  <string>io.github.djyde.collinsdict</string>
+  <key>Extension Name</key>
+  <string>CollinsDict</string>
+</dict>
+</plist>
